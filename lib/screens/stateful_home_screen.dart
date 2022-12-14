@@ -55,7 +55,7 @@ class _StatefulHomeScreenState extends State<StatefulHomeScreen> {
           ],
         ),
       ),
-      //floatingActionButtonLocation: FloatingActionButtonLocation.startFloat,
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
       floatingActionButton: CustomFloatingActions(
         increaseFn: increase,
         decreaseFn: decrease,
