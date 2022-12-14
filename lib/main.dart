@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_introduction/screens/home_screen.dart';
+import 'package:flutter_introduction/screens/stateful_home_screen.dart';
 
 void main(List<String> args) {
   runApp(const MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     //El widget es constante porque tiene contenido estatico , no dinamico
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomeScreen(),
+      home: StatefulHomeScreen(),
     );
   }
 }
