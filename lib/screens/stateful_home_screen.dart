@@ -33,7 +33,7 @@ class _StatefulHomeScreenState extends State<StatefulHomeScreen> {
         backgroundColor: Colors.pink,
         elevation: 4, //Quita el sombreado que pone debajo del widget
         title: Text(
-          'Contador Lordran',
+          'Lordran contador',
           style: fontSize,
         ),
       ),
